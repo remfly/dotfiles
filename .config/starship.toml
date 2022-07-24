@@ -1,0 +1,33 @@
+format = """
+[╭─](bold #ECEFF4)$username$hostname$directory$git_branch$git_status
+[│](bold #ECEFF4)
+[╰─](bold #ECEFF4)$character
+"""
+
+add_newline = true
+
+[character]
+success_symbol = "[❯](bold #D28D93)"
+error_symbol = "[✗](bold #D28D93)"
+
+[username]
+style_user = "bold #D28D93"
+style_root = "bold #EBCB8B"
+format = "[$user]($style)"
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = false
+style = "bold #D28D93"
+format = "[@](bold #D28D93)[$hostname]($style) [in](#ECEFF4) "
+disabled = false
+
+[directory]
+read_only = " "
+
+[git_branch]
+symbol = " "
+
+[line_break]
+disabled = false

@@ -1,0 +1,37 @@
+/*
+###############################################################
+#                                                             #
+#                                  __ _                       #
+#              _ __ ___ _ __ ___  / _| |_   _                 #
+#             | '__/ _ \ '_ ` _ \| |_| | | | |                #
+#             | | |  __/ | | | | |  _| | |_| |                #
+#             |_|  \___|_| |_| |_|_| |_|\__, |                #
+#                                       |___/                 #
+#                                                             #
+#                                                             #
+###############################################################
+#                                                             #
+#           https://github.com/remfly/dotfiles                #
+#                                                             #
+###############################################################
+*/
+
+configuration {
+    modi: "drun,run,emoji";
+    combi-modi: "drun,run,window";
+    disable-history: true;
+    hide-scrollbar: true;
+    font: "Roboto Medium 11";
+
+    icon-theme: "Papirus-Dark";
+
+    terminal: "alacritty";
+    drun-display-format: "{icon}  {name}";
+    separator-style: "solid";
+
+    display-run:	"❯";
+    display-drun:	"";
+    display-emoji:  "粒";
+ }
+
+ @theme "themes/nord.rasi"

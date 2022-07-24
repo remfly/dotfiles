@@ -1,0 +1,17 @@
+- 1.1.4
+- _NAME: MX Keys Keyboard
+  _absent: [hi-res-scroll, lowres-scroll-mode, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, smart-shift, thumb-scroll-invert, thumb-scroll-mode,
+    onboard_profiles, report_rate, pointer_speed, dpi, dpi-sliding, speed-change, mouse-gestures, backlight-timed, reprogrammable-keys, persistent-remappable-keys,
+    crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led, gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer]
+  _modelId: B35B408A0000
+  _sensitive: {backlight: false, disable-keyboard-keys: false, divert-keys: false, multiplatform: false}
+  _serial: BD38D2E6
+  _unitId: BD38D2E6
+  _wpid: 408A
+  backlight: false
+  change-host: null
+  disable-keyboard-keys: {1: true, 2: true, 4: true, 8: true, 16: false}
+  divert-keys: {10: 0, 110: 0, 111: 0, 191: 0, 199: 0, 200: 0, 209: 0, 210: 0, 211: 0, 224: 0, 225: 0, 226: 0, 227: 0, 228: 0, 229: 0, 230: 0, 231: 0, 232: 0,
+    233: 0, 234: 0, 235: 0, 236: 0}
+  fn-swap: false
+  multiplatform: 0
