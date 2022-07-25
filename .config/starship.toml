@@ -4,8 +4,6 @@ format = """
 [╰─](bold #ECEFF4)$character
 """
 
-add_newline = true
-
 [character]
 success_symbol = "[❯](bold #D28D93)"
 error_symbol = "[✗](bold #D28D93)"
