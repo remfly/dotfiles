@@ -58,6 +58,9 @@ while pgrep -u $UID -x picom > /dev/null; do sleep 1; done
 ## Automatic Monitor Profile Setup ##
 ~/.config/bspwm/profile.sh &
 
+## Mute Volume ##
+amixer set Master mute &
+
 ## Set mouse cursor outside windows ##
 xsetroot -cursor_name left_ptr &
 
