@@ -1,3 +1,5 @@
+add_newline = false
+
 format = """
 [╭─](bold #ECEFF4)$username$hostname$directory$git_branch$git_status
 [│](bold #ECEFF4)
@@ -28,4 +30,4 @@ read_only = " "
 symbol = " "
 
 [line_break]
-disabled = false
+disabled = true

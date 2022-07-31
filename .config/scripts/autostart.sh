@@ -15,6 +15,9 @@
 #                                                             #
 ###############################################################
 
+kdeconnect-indicator &
+sleep 1.5
+
 solaar -w hide &
 sleep 0.5
 

@@ -11,8 +11,6 @@ alias config="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias mirror="su -c 'reflector --latest 50 --sort rate --protocol https --save /etc/pacman.d/mirrorlist'"
 alias ip="ip -c"
 alias public-ip="host myip.opendns.com resolver1.opendns.com"
-alias sudo="doas"
-alias doas="doas"
 
 # ls-to-exa
 alias ls="exa -larih --color=always --group-directories-first"
@@ -29,6 +27,7 @@ alias fgrep="fgrep --color=auto"
 alias cl="clear"
 alias re="source ~/.bashrc && reset"
 alias py="python"
+alias rngr="ranger"
 alias copy="xclip -i -sel cli"
 
 # YouTube download options

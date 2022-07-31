@@ -46,10 +46,13 @@ bspc rule -a flameshot state=floating centered=true
 bspc rule -a GParted state=floating centered=true
 bspc rule -a Protonvpn state=floating centered=true
 bspc rule -a Peek state=floating centered=true
+bspc rule -a Steam state=floating centered=true
+bspc rule -a QjackCtl state=floating centered=true
+bspc rule -a steam_app_253030 desktop='^6'
 bspc rule -a discord desktop='^7'
 
 ## Cleaning up ##
-killall -eq solaar mictray blueman-applet picom dunst polkit-gnome-authentication-agent-1 parcellite unclutter volumeicon nm-applet > /dev/null
+killall -eq solaar mictray blueman-applet kdeconnect-indicator picom dunst polkit-gnome-authentication-agent-1 parcellite unclutter volumeicon nm-applet > /dev/null
 while pgrep -u $UID -x picom > /dev/null; do sleep 1; done
 
 ## Automatic Monitor Profile Setup ##
