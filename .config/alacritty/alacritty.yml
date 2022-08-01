@@ -100,5 +100,9 @@ font:
 
   size: 11
 
+  offset:
+    x: 0
+    y: -2
+
 shell:
   program: /bin/bash
