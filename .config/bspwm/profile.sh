@@ -15,6 +15,7 @@
 #                                                             #
 ###############################################################
 
+
 external_monitor="$(xrandr --query | grep -v 'disconnected' | grep 'HDMI-2')"
 
 if [[ "${external_monitor}" = *connected* ]]; then

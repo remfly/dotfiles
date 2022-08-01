@@ -44,12 +44,19 @@ bspc rule -a Solaar state=floating centered=true
 bspc rule -a Nm-connection-editor state=floating centered=true
 bspc rule -a flameshot state=floating centered=true
 bspc rule -a GParted state=floating centered=true
+bspc rule -a Grapejuice state=floating centered=true
 bspc rule -a Protonvpn state=floating centered=true
 bspc rule -a Peek state=floating centered=true
 bspc rule -a Steam state=floating centered=true
 bspc rule -a QjackCtl state=floating centered=true
 bspc rule -a steam_app_253030 desktop='^6'
 bspc rule -a discord desktop='^7'
+bspc rule -a "robloxplayerbeta.exe" locked=true desktop="^6"
+bspc rule -a "roblox_installer.exe" locked=true state=floating
+bspc rule -a "robloxplayerlauncher.exe" locked=true state=floating
+bspc rule -a "robloxstudiolauncherbeta.exe" locked=true state=floating
+bspc rule -a "conhost.exe" locked=true state=floating desktop='^9'
+bspc rule -a "fluxuslinux.exe" locked=true state=floating
 
 ## Cleaning up ##
 killall -eq solaar mictray blueman-applet kdeconnect-indicator picom dunst polkit-gnome-authentication-agent-1 parcellite unclutter volumeicon nm-applet > /dev/null
@@ -57,9 +64,6 @@ while pgrep -u $UID -x picom > /dev/null; do sleep 1; done
 
 ## Automatic Monitor Profile Setup ##
 ~/.config/bspwm/profile.sh &
-
-## Mute Volume ##
-amixer set Master mute &
 
 ## Set mouse cursor outside windows ##
 xsetroot -cursor_name left_ptr &
