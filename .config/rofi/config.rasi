@@ -31,7 +31,7 @@ configuration {
 
     display-run:	"❯";
     display-drun:	"";
-    display-emoji:  "粒";
+    display-emoji:  "";
  }
 
  @theme "themes/nord.rasi"
