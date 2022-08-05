@@ -21,7 +21,6 @@
 export EDITOR="/usr/bin/nvim"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export WINEPREFIX="/home/remfly/.local/share/grapejuice/prefixes/fluxus"
-export WINEESYNC=1
 
 ### Aliases ###
 
@@ -64,7 +63,7 @@ alias ytv-best="yt-dlp -f bestaudio+bestvideo -f mp4"
 # Fun
 alias doge="doge | lolcat -a -d 100 -s 100 -p 1"
 alias fortune="fortune | cowsay | lolcat"
-alias rr="curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash"
+alias rr="~/.config/scripts/roll.sh"
 
 ### The Fuck setup ###
 eval "$(thefuck --alias)"

@@ -40,7 +40,7 @@
     origin = top-right
 
     # Offset from the origin
-    offset = 9x33
+    offset = 12x49
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
@@ -118,7 +118,7 @@
 
     ### Text ###
 
-    font = Roboto 7
+    font = Roboto 10
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.
