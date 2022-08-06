@@ -27,6 +27,7 @@ export WINEPREFIX="/home/remfly/.local/share/grapejuice/prefixes/fluxus"
 # Misc
 alias config="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias mirror="sudo reflector --latest 50 --sort rate --protocol https --save /etc/pacman.d/mirrorlist"
+alias lynx-ddg="lynx https://duckduckgo.com"
 alias utc="date +%s | tr --delete '\n' | xclip -i -sel cli"
 alias public-ip="host myip.opendns.com resolver1.opendns.com"
 alias ip="ip -c"
