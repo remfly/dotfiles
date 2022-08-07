@@ -1,11 +1,13 @@
 ## Information
 
+Check [screenshots](README.md#screenshots) for *visual* details!
+
 <table>
 <tr><th>Programs</th><th>Tray Icons</th></tr>
 <tr><td>
 
-|                       |                                                 |
-|-----------------------|-------------------------------------------------|
+|  Title                |  URL                                            |
+|-----------------------|:-----------------------------------------------:|
 |  Window Manager       |  [bspwm](https://github.com/baskerville/bspwm)  |
 |  Keybindings          |  [sxhkd](https://github.com/baskerville/sxhkd)  |
 |  Status Bar           |  [polybar](https://github.com/polybar/polybar)  |
@@ -13,24 +15,20 @@
 |  Menu Launcher        |  [rofi](https://github.com/DaveDavenport/rofi)  |
 |  Notification Server  |  [dunst](https://dunst-project.org)             |
 |  Shell Prompt         |  [starship](https://starship.rs)                |
----
 
 </td><td>
 
-|                  |                                                                      |
-|------------------|----------------------------------------------------------------------|
+| Title            |  URL                                                                 |
+|------------------|:--------------------------------------------------------------------:|
 | Network          |  [nm-applet](https://gitlab.gnome.org/GNOME/network-manager-applet)  |
 | Volume           |  [volumeicon](https://softwarebakery.com/maato/volumeicon.html)      |
 | Microphone       |  [mictray](https://github.com/Junker/MicTray)                        |
-| Bluetooth        |  [blueman-applet](https://github.com/blueman-project/blueman)        |
+| Bluetooth        |  [blueman](https://github.com/blueman-project/blueman)               |
 | Clipboard        |  [parcellite](http://parcellite.sourceforge.net)                     |
-| KDE Connect      |  [kdeconnect-indicator](https://kdeconnect.kde.org)                  |
+| KDE Connect      |  [kdeconnect](https://kdeconnect.kde.org)                            |
 | Logitech Solaar  |  [solaar](https://pwr-solaar.github.io/Solaar)                       |
----
 
 </td></tr> </table>
-
-Check [screenshots](README.md#screenshots) for *visual* details!
 
 
 ## Dependencies
