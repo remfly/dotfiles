@@ -47,15 +47,11 @@ Here's a small list of some dependencies that are **crucial** for everything to 
 
 Some helpful information regarding the dotfiles:
 
-- for the GTK and Qt/Kvantum themes, I use [Nordic](https://github.com/EliverLara/Nordic) by [EliverLara](https://github.com/EliverLara).
-- my preferred program for setting GTK themes is `lxappearance`; for Qt/Kvantum themes, `qt5ct` & `kvantum`.
+- my dotfiles are managed using [this method](https://wiki.archlinux.org/title/Dotfiles)
+- for the GTK and Qt/Kvantum themes, I use [Nordic](https://github.com/EliverLara/Nordic) by [EliverLara](https://github.com/EliverLara)
+- my preferred program for setting GTK themes is [lxappearance](https://wiki.lxde.org/en/LXAppearance); for Qt/Kvantum themes, [qt5ct](https://qt5ct.sourceforge.io) & [kvantum](https://github.com/tsujan/Kvantum)
 
 Don't forget to leave a star in the repository! Be on the lookout for updates (they may contain fixes or even new stuff!)
-
-
-## Supporting
-
-If you wan't to support my "work", hit that follow button on my profile :D
 
 
 ## Screenshots
