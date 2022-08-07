@@ -65,6 +65,7 @@ alias ytv-best="yt-dlp -f bestaudio+bestvideo -f mp4"
 alias doge="doge | lolcat -a -d 100 -s 100 -p 1"
 alias fortune="fortune | cowsay | lolcat"
 alias rr="~/.config/scripts/roll.sh"
+alias pipes="pipes -t 1 -f 60 -R"
 
 ### The Fuck setup ###
 eval "$(thefuck --alias)"

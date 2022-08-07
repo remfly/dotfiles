@@ -14,10 +14,10 @@ Here's a small list of some dependencies that are **crucial** for everything to 
 
 Some helpful information regarding the dotfiles:
 
-- for the GTK and QT/Kvantum themes, I use [Nordic](https://github.com/EliverLara/Nordic) by [EliverLara](https://github.com/EliverLara).
-- my preferred program for setting GTK themes is `lxappearance`; for QT themes, `qt5ct` and `kvantum`.
+- for the GTK and Qt/Kvantum themes, I use [Nordic](https://github.com/EliverLara/Nordic) by [EliverLara](https://github.com/EliverLara).
+- my preferred program for setting GTK themes is `lxappearance`; for Qt/Kvantum themes, `qt5ct` & `kvantum`.
 
-Don't forget to leave a star in the repository and be in the lookout for updates (they may contain fixes or even new stuff!)
+Don't forget to leave a star in the repository! Be on the lookout for updates (they may contain fixes or even new stuff!)
 
 
 ## Supporting
