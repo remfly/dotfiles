@@ -58,6 +58,7 @@ bspc rule -a "robloxplayerlauncher.exe" locked=true state=floating
 bspc rule -a "robloxstudiolauncherbeta.exe" locked=true state=floating
 bspc rule -a "conhost.exe" locked=true state=floating desktop='^9'
 bspc rule -a "fluxuslinux.exe" locked=true state=floating
+bspc rule -a "scrcpy" locked=true state=floating
 
 ## Cleaning up ##
 killall -eq solaar mictray blueman-applet kdeconnect-indicator picom dunst polkit-gnome-authentication-agent-1 parcellite unclutter volumeicon nm-applet > /dev/null

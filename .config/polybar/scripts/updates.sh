@@ -22,5 +22,5 @@ fi
 if [ "$updates" -gt 0 ]; then
     echo "UPDATES: $updates"
 else
-    echo "UPDATES: 0"
+    echo "UPDATES: N/A"
 fi

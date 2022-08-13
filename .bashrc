@@ -33,10 +33,10 @@ alias public-ip="host myip.opendns.com resolver1.opendns.com"
 alias ip="ip -c"
 
 # Roblox Wine Management
-alias nukewine="WINEPREFIX=/home/remfly/.local/share/grapejuice/prefixes/player wineserver -k ; WINEPREFIX=/home/remfly/.local/share/grapejuice/prefixes/studio wineserver -k ; WINEPREFIX=/home/remfly/.local/share/grapejuice/prefixes/fluxus wineserver -k"
 alias nukewineplayer='WINEPREFIX=/home/remfly/.local/share/grapejuice/prefixes/player wineserver -k'
 alias nukewinestudio='WINEPREFIX=/home/remfly/.local/share/grapejuice/prefixes/studio wineserver -k'
 alias nukewinefluxus='WINEPREFIX=/home/remfly/.local/share/grapejuice/prefixes/fluxus wineserver -k'
+alias nukewine="nukewineplayer ; nukewinestudio ; nukewinefluxus ;"
 
 # ls-to-exa
 alias ls="exa -larih --color=always --group-directories-first"
@@ -66,6 +66,9 @@ alias doge="doge | lolcat -a -d 100 -s 100 -p 1"
 alias fortune="fortune | cowsay | lolcat"
 alias rr="~/.config/scripts/roll.sh"
 alias pipes="pipes -t 1 -f 60 -R"
+
+### Nord Dircolors Setup ###
+test -r "~/.dir_colors" && eval $(dircolors ~/.dir_colors)
 
 ### The Fuck setup ###
 eval "$(thefuck --alias)"
