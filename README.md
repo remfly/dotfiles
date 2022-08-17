@@ -6,7 +6,7 @@ This repository is where I store and share my personal dotfiles. The configurati
 
 ---
 
-<a href=".screenshots/03.png">
+<a href="https://raw.githubusercontent.com/remfly/dotfiles/master/.screenshots/03.png">
   <img alt="Sexy Screenshot" width="100%" src=".assets/sexy.svg"/>
 </a>
 
