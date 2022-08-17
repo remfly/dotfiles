@@ -23,6 +23,11 @@ return require('packer').startup(function(use)
     use 'RRethy/vim-illuminate';
 
     use {
+        "iamcco/markdown-preview.nvim",
+        run = function() vim.fn["mkdp#util#install"]() end,
+    };
+
+    use {
         'nvim-lualine/lualine.nvim',
         requires = {'kyazdani42/nvim-web-devicons', opt = true},
     };
