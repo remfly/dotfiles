@@ -86,7 +86,7 @@ nitrogen --restore &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 ## Start compositor ##
-picom --config ~/.config/picom/picom.conf -b
+picom --focus-exclude "! name~=''" --config ~/.config/picom/picom.conf -b
 
 ## Start System Applications ##
 ~/.config/scripts/autostart.sh

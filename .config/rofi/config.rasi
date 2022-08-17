@@ -17,8 +17,8 @@
 */
 
 configuration {
-    modi: "drun,run,emoji";
-    combi-modi: "drun,run,window";
+    modi: "drun,run,emoji,window";
+    combi-modi: "drun,run,emoji,window";
     disable-history: true;
     hide-scrollbar: true;
     font: "Roboto Medium 11";
@@ -31,7 +31,8 @@ configuration {
 
     display-run:	"❯";
     display-drun:	"";
-    display-emoji:  "";
+    display-window: "";
+    display-emoji:  "";
  }
 
  @theme "themes/nord.rasi"
