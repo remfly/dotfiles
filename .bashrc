@@ -20,23 +20,36 @@
 ### Environment Variables ###
 export EDITOR="/usr/bin/nvim"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-export WINEPREFIX="/home/remfly/.local/share/grapejuice/prefixes/fluxus"
+export WINEPREFIX="${HOME}/.local/share/grapejuice/prefixes/fluxus"
+export WINEESYNC=0
+
+### Shell Functions ###
+function nuke_wine () {
+    path="${HOME}/.local/share/grapejuice/prefixes"
+    prefixes=("player" "studio" "fluxus")
+
+    for prefix in "${prefixes[@]}"
+    do
+        WINEPREFIX="${path}/${prefix}" wineserver -k;
+    done
+
+    echo "Nuked all Wine instances!"
+}
+
+function update_mirrors () {
+    save_path="/etc/pacman.d/mirrorlist"
+    count=50
+
+    sudo reflector --latest "${count}" --sort rate --protocol https --save "${save_path}"
+}
 
 ### Aliases ###
 
-# Misc
+# Miscellaneous
 alias config="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
-alias mirror="sudo reflector --latest 50 --sort rate --protocol https --save /etc/pacman.d/mirrorlist"
-alias lynx-ddg="lynx https://duckduckgo.com"
 alias utc="date +%s | tr --delete '\n' | xclip -i -sel cli"
 alias public-ip="host myip.opendns.com resolver1.opendns.com"
 alias ip="ip -c"
-
-# Roblox Wine Management
-alias nukewineplayer='WINEPREFIX=/home/remfly/.local/share/grapejuice/prefixes/player wineserver -k'
-alias nukewinestudio='WINEPREFIX=/home/remfly/.local/share/grapejuice/prefixes/studio wineserver -k'
-alias nukewinefluxus='WINEPREFIX=/home/remfly/.local/share/grapejuice/prefixes/fluxus wineserver -k'
-alias nukewine="nukewineplayer ; nukewinestudio ; nukewinefluxus ;"
 
 # ls-to-exa
 alias ls="exa -larih --color=always --group-directories-first"
