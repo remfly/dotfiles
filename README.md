@@ -24,6 +24,7 @@ This repository is where I store and share my personal dotfiles. The configurati
 | **Xorg Compositor**        | picom     | [`📁 .config/picom`](.config/picom)                 | [🔗](https://github.com/yshui/picom)              |
 | **Notification Server**    | dunst     | [`📁 .config/dunst`](.config/dunst)                 | [🔗](https://dunst-project.org)                   |
 | **System Monitor**         | htop      | [`📁 .config/htop`](.config/htop)                   | [🔗](https://htop.dev)                            |
+| **Text Editor**            | neovim    | [`📁 .config/nvim`](.config/nvim)                   | [🔗](https://neovim.io)                           |
 | **Terminal**               | alacritty | [`📁 .config/alacritty`](.config/alacritty)         | [🔗](https://github.com/alacritty/alacritty)      |
 | **Prompt**                 | starship  | [`📁 .config/starship.toml`](.config/starship.toml) | [🔗](https://starship.rs)                         |
 
