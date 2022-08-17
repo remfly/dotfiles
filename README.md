@@ -85,6 +85,22 @@ Here's a list of what you'll need to get everything to look uniform:
 
 ---
 
-#### Final Words
+### Managing Dotfiles
+
+There are multiple ways to manage your dotfiles. I myself prefer to use Git; if you'd like to do the same as me, here's how you can manage your own dotfiles
+
+```bash
+$ git init --bare ~/.dotfiles
+$ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+$ config config status.showUntrackedFiles no
+```
+
+Don't forget to add the config alias to your shell's `rc` file afterwards!
+
+For more details, read [this](https://wiki.archlinux.org/title/Dotfiles).
+
+---
+
+### Final Words
 
 Got to the end of this readme? Leave a star on this repository to support me!
