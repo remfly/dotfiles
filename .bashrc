@@ -17,6 +17,10 @@
 ### Default Bash Settings ###
 [[ $- != *i* ]] && return
 
+if [ -d "${HOME}/bin" ] ; then
+    PATH="${HOME}/bin:${PATH}"
+fi
+
 ### Environment Variables ###
 export EDITOR="/usr/bin/nvim"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
@@ -53,7 +57,6 @@ alias ip="ip -c"
 
 # ls-to-exa
 alias ls="exa -larih --color=always --group-directories-first"
-alias la="exa -a --color=always --group-directories-first"
 alias ll="exa -l --color=always --group-directories-first"
 alias tree="exa -aT --color=always --group-directories-first"
 

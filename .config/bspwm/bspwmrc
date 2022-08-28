@@ -74,7 +74,7 @@ xsetroot -cursor_name left_ptr &
 numlockx on &
 
 ## Set keyboard repeat rate ##
-xset r rate 240 44 &
+xset r rate 200 44 &
 
 ## Auto-hide cursor ##
 unclutter --timeout 10 --jitter 2 --exclude-root --ignore-scrolling -b
